@@ -1,0 +1,15 @@
+generated: '2026-10-24'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: poliloop.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan  2 22:23:35 2027 GMT
+  hsts: null
+domains:
+- domain: poliloop.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
